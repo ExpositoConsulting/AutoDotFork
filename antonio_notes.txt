@@ -1,0 +1,3 @@
+(1) The Dockerfile defines a linux instance which has all of the dependencies specified in AutoDot's main README. Upon running, user enters the shell of this linux instance
+    BUILD COMMAND: docker build -t my-python-app .
+    RUN COMMAND: docker run -it my-python-app
